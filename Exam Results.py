@@ -1,6 +1,9 @@
-score = int(input("Score:"))
+score = int(input("Please Enter Your Score without the %:"))
 
-if score >= 90 and score <= 100:
+if score >= 100:
+    print("Stop Lying !!!")
+
+elif score >= 90 and score <= 100:
     print("Grade Results: A")
 
 elif score >= 80 and score <= 90:
